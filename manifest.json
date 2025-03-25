@@ -1,0 +1,49 @@
+{
+  "name": "越权测试助手",
+  "version": "1.0",
+  "description": "用于测试权限提升漏洞的Chrome扩展",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "action": {
+    "default_title": "越权测试助手",
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/ico16.png",
+      "48": "images/icon48.png",
+      "128": "images/icon128.png"
+    }
+  },
+  "permissions": [
+    "tabs",
+    "storage",
+    "webRequest",
+    "scripting",
+    "webNavigation",
+    "cookies",
+    "activeTab",
+    "webRequestAuthProvider"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["contentScript.js"],
+      "run_at": "document_start"
+    }
+  ],
+  "incognito": "spanning",
+  "icons": {
+    "16": "images/ico16.png",
+    "48": "images/icon48.png",
+    "128": "images/icon128.png"
+  },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'",
+    "sandbox": "sandbox allow-scripts; script-src 'self' 'unsafe-inline' 'unsafe-eval'; child-src 'self'"
+  }
+}
