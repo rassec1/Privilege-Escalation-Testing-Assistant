@@ -35,6 +35,8 @@ Synchro是一个Chrome浏览器扩展，用于测试网站的越权漏洞。它�
 5. 选择一个窗口作为"主窗口"（所有操作将从此窗口同步到其他窗口）
 6. 启用同步开关
 7. 在主窗口中进行操作，观察其他窗口的行为
+ ![image](https://github.com/user-attachments/assets/804b7f33-3f2a-42d2-bcff-f9600e9b5ac6)
+
 
 ## 测试场景示例
 
