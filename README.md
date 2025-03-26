@@ -74,6 +74,7 @@ Synchro是一个Chrome浏览器扩展，用于测试网站的越权漏洞。它�
 ## 贡献与反馈
 
 欢迎提交问题和建议，或通过Pull Request贡献代码。 
+
 ## Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=rassec1/Privilege-Escalation-Testing-Assistant&type=Date)](https://www.star-history.com/#rassec1/Privilege-Escalation-Testing-Assistant&Date)
