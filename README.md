@@ -1,7 +1,9 @@
 # Synchro - 越权测试工具
 
 Synchro是一个Chrome浏览器扩展，用于测试网站的越权漏洞。它允许你在不同窗口登录不同账号，并将一个主窗口的所有操作同步到其他窗口，帮助发现权限控制缺陷。
-![image](https://github.com/user-attachments/assets/75378d19-71fe-4f94-a9f2-62b79cd717cd)
+
+
+![pic](https://github.com/user-attachments/assets/75378d19-71fe-4f94-a9f2-62b79cd717cd)
 
 
 ## 功能特点
@@ -72,3 +74,6 @@ Synchro是一个Chrome浏览器扩展，用于测试网站的越权漏洞。它�
 ## 贡献与反馈
 
 欢迎提交问题和建议，或通过Pull Request贡献代码。 
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=rassec1/Privilege-Escalation-Testing-Assistant&type=Date)](https://www.star-history.com/#rassec1/Privilege-Escalation-Testing-Assistant&Date)
